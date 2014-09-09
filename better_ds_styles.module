@@ -1,0 +1,8 @@
+<?php
+
+
+function better_ds_styles_preprocess_page($vars) {
+  if (path_is_admin(current_path())) {
+    drupal_add_css(drupal_get_path('module', 'better_ds_styles') . '/css/styles.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));
+  }
+}

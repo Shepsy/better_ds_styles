@@ -1,0 +1,6 @@
+name = Better Display Suite styles
+description = Adds better CSS styles for display suite admin forms. For adminimal theme (although might work with others).
+core = 7.x
+version = 7.x-1.0
+project = better_ds_styles
+package = "Display Suite"
